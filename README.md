@@ -15,7 +15,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-social-proof-section-4WiF1nLlRD)
 - Live Site URL: [Demo](https://social-proof-fm.vercel.app/)
 
 
