@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*,*::before,*::after{
+    box-sizing: border-box
+}
+
+
+
+
+
+:root{
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white:hsl(0, 0%, 100%);
+    --font-stack: 'League Spartan', sans-serif;;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 1em 0;
+}
+
+.hero-title{
+    font-family: var(--font-stack);
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--very-dark-magenta);
+    text-align: center;
+}
+
+.hero-subtitle{
+    font-family: var(--font-stack);
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: var(--grayish-magenta);
+    text-align: center;
+    margin-top: -1em;
+}
+
+.rating-container{
+    background-color: var(--light-grayish-magenta);
+    text-align: center;
+    padding: .7em 0 .3em 0;
+    margin: .7em 0;
+    border-radius: 10px;
+}
+
+.rating-subtitle{
+    font-family: var(--font-stack);
+    font-weight: 700;
+    color: var(--very-dark-magenta);
+    margin-top: 5px;
+}
+
+.review-container{
+    background-color: var(--very-dark-magenta);
+    padding: .7em 1em;
+    margin: 1.5em 0;
+    border-radius: 10px;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 50px;
+    margin-top: 1em;
+}
+
+.avatar-name-container{
+    display: flex;
+}
+.reviewer-name{
+    font-family: var(--font-stack);
+    font-weight: 500;
+    color: var(--white);
+    margin-left: .7em;
+    font-size: 1.3125rem;
+    margin-top: 1em;
+}
+
+.verified-buyer{
+    font-family: var(--font-stack);
+    color: var(--soft-pink);
+    font-size: .9375rem;
+    margin-left: .9em;
+    margin-top: -1em;
+}
+
+.review-msg{
+    color: var(--white);
+    font-family: var(--font-stack);
+    font-size: 1.125rem;
+
+}
+
+@media (min-width:768px){
+    body{
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .hero{
+        width: 35%;
+    }
+    .rating{
+        width: 55%;
+    }
+    .hero-title{
+        margin-top: -0.5em;
+    }
+
+    .hero-title,.hero-subtitle{
+        text-align: left;
+    }
+    .col{
+        margin-right: 1em;
+    }
+
+    .review-pos-1{
+        transform: translateY(-1.5em);
+    }
+    .review-pos-3{
+        transform: translateY(1.5em);
+    }
+
+   .rating-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 70%;
+   }
+   .rating-subtitle{
+    margin-top: 10px;
+   }
+
+   .rating-pos-1{
+    transform: translateX(-2em);
+   }
+   .rating-pos-3{
+    transform: translateX(2em);
+   }
+}
