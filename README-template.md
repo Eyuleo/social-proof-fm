@@ -16,7 +16,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [](https://social-proof-fm.vercel.app/)
+- Live Site URL: [Demo](https://social-proof-fm.vercel.app/)
 
 
 ### Built with
